@@ -1,10 +1,22 @@
 package search;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class ExponentialSearchExample {
 
 	public static void main(String[] args) {
+	
+	int[] arr= {3,6,8,9,12,15};
+	
+	Scanner sc = new scanner(System.in);
+	while(true) {
+		 System.out.println("Enter element to search:");
+		 int key= sc.nextInt();
+		 
+		 exponentialSearch(arr,key,arr.length);
+	}
+		
 	
 
 	}

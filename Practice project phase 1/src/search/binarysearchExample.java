@@ -10,7 +10,7 @@ public class binarysearchExample {
     }
 	
     
-    satic void binarySearch(int[] arr,int start,int key,int end) {
+    static void binarySearch(int[] arr,int start,int key,int end) {
     	
     	int mid = (start+end)/2;
     	while(start<= end) {
@@ -18,7 +18,8 @@ public class binarysearchExample {
     			start= mid+1;
     		}else {
     			 System.out.println("Element is found at index: "+mid);
-    		}else {
+    		}
+    		else {
     			  end = mid-1;
     		}
     	}
